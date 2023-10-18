@@ -339,18 +339,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07b3db7662d94004a97235eb6c7dcbd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rocketShip: {fileID: 5452108626990841878, guid: fd2897fc8bc9a174fade5b61e2629d85,
-    type: 3}
-  hazards:
+  gameObjects:
+  - {fileID: 5452108626990841878, guid: fd2897fc8bc9a174fade5b61e2629d85, type: 3}
+  - {fileID: 4779232907575503521, guid: 32026c9f4953c2d46b9a00fe1b323827, type: 3}
+  - {fileID: 4779232907575503521, guid: 32026c9f4953c2d46b9a00fe1b323827, type: 3}
+  - {fileID: 4779232907575503521, guid: 32026c9f4953c2d46b9a00fe1b323827, type: 3}
+  - {fileID: 3867824794672373465, guid: 93eac04003b6ada44a55c1208cd61f90, type: 3}
   - {fileID: 4779232907575503521, guid: 32026c9f4953c2d46b9a00fe1b323827, type: 3}
   - {fileID: 3867824794672373465, guid: 93eac04003b6ada44a55c1208cd61f90, type: 3}
   - {fileID: 4779232907575503521, guid: 32026c9f4953c2d46b9a00fe1b323827, type: 3}
   - {fileID: 4779232907575503521, guid: 32026c9f4953c2d46b9a00fe1b323827, type: 3}
   - {fileID: 3867824794672373465, guid: 93eac04003b6ada44a55c1208cd61f90, type: 3}
   - {fileID: 4779232907575503521, guid: 32026c9f4953c2d46b9a00fe1b323827, type: 3}
-  - {fileID: 3867824794672373465, guid: 93eac04003b6ada44a55c1208cd61f90, type: 3}
-  - {fileID: 3867824794672373465, guid: 93eac04003b6ada44a55c1208cd61f90, type: 3}
-  - {fileID: 4779232907575503521, guid: 32026c9f4953c2d46b9a00fe1b323827, type: 3}
-  - {fileID: 4779232907575503521, guid: 32026c9f4953c2d46b9a00fe1b323827, type: 3}
-  interval: 2
-  cam: {fileID: 963194227}
