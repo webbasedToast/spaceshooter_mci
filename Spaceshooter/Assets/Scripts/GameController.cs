@@ -35,7 +35,7 @@ public class GameController : MonoBehaviour
                 Random.Range(0.1f, 0.5f),
                 Random.Range(0.1f, 0.5f),
                 0);
-            _hazard.GetComponent<Rigidbody>().AddForce(transform.forward * 2.43f, ForceMode.Acceleration);
+            _hazard.GetComponent<Rigidbody>().AddForce(transform.right * -2.43f, ForceMode.Impulse);
             
             _timer = 0;
         }
